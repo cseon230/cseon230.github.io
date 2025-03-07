@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Inrune # the main title
 
-tagline: Software Engineer Seonha Choi's Dev Blog # it will display as the subtitle
+tagline: Software Engineer<br>Choi Seon Ha's Dev Blog # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.

@@ -16,7 +16,7 @@ mermaid: fasle
 코드를 직접 수정하는 것이 아닌 추상화된 전략의 구현만을 바꿔 객체의 행위를 변경하는 디자인 패턴입니다.
 자바 언어의 요소와 함께 설명하자면, 객체의 행위를 `interface`로 정의하고, `interface`의 메서드를 구현하는 구현체들을 주입하는 것이 전략 패턴의 대표적인 형태입니다.
 
-```
+```java
 class Car {
   private final MoveStrategy strategy;
   private final int position;
@@ -52,7 +52,7 @@ class OddNumberMoveStrategy implements MoveStrategy { ... }
 class PrimeNumberMoceStrategy implements MoveStrategy { ... }
 ```
 
-```
+```java
 public class Main {
     public static void main(String[] args) {
         MoveStrategy evenStrategy = new EvenNumberMoveStrategy(); // 짝수 이동 전략 생성

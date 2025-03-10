@@ -20,7 +20,7 @@ GC(Garbage Collection)는 자바의 메모리 관리 방법의 하나이며, JVM
 
 ## 개발자가 GC 대상 판단에 관여할 수는 없나요?
 
-```
+```java
 Origin o = new Origin();
 WeakReference<Origin> wo = new WeakReference<>(o);
 ```

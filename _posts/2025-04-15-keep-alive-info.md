@@ -2,7 +2,7 @@
 title: Keep Alive 란?
 description:
 author: Choi Seon Ha
-date: 2025-03-06 09:30:00 +0800
+date: 2025-04-15 09:30:00 +0800
 categories: [Development, Backend]
 tags: [network, backend]
 pin: true

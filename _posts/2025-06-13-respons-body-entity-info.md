@@ -1,5 +1,5 @@
 ---
-title: ResponseBody가 있을때와 없을 때의 차이점
+title: ResponseBody(or ResponseEntity<T>)가 있을때와 없을떄의 차이점
 description:
 author: Choi Seon Ha
 date: 2025-06-13 09:30:00 +0800
